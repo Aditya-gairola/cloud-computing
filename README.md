@@ -1,8 +1,7 @@
 # Cloud-computing
 Concepts of cloud computing, basics, related topics details 
 
-![Screenshot_2024_0918_123427](https://github.com/user-attachments/assets/9b54d9e2-5cb2-4a28-a145-9a5e9fb7490a)
-
+ https://www.google.com/imgres?q=cloud%20computing%20photo&imgurl=https%3A%2F%2Fplatinumdatarecovery.com%2Fwp-content%2Fuploads%2F2023%2F05%2Fcloud-computing-diagram.webp&imgrefurl=https%3A%2F%2Fplatinumdatarecovery.com%2Fblog%2Fwhat-is-cloud&docid=xoWnDMNq_NxfPM&tbnid=4Tl1Zt8VkT3bdM&vet=12ahUKEwjmjKPH9cSJAxVmxzgGHda0CnYQM3oECGUQAA..i&w=1024&h=574&hcb=2&ved=2ahUKEwjmjKPH9cSJAxVmxzgGHda0CnYQM3oECGUQAA
 # Cloud Computing:- 
 
 Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet ("the cloud"). This allows for faster innovation, flexible resources, and economies of scale.
