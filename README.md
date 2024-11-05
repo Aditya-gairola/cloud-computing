@@ -663,10 +663,8 @@ Amazon Virtual Private Cloud (VPC) is a virtual network that allows users to lau
 
 ### Go to VPC and create a VPC then we  have to create 4 subnets , where 2     subnets are private and other two are  public .
 
-![Screenshot_2024_1104_181237](https://github.com/user-attachments/assets/25f8774d-56f0-426e-8cf2-eee68511767e)
-
-
-![Screenshot_2024_1104_181126](https://github.com/user-attachments/assets/0512bbc2-f00c-4f5e-b853-63032d26e6e1)
+ 
+ 
 
 ## create  gateways:- 
 
@@ -694,8 +692,7 @@ Amazon Virtual Private Cloud (VPC) is a virtual network that allows users to lau
 •then on both instance we have to       downlaod the web server here i have    downlaoded the apache2 server
 
 -- after that i chech that my             instances are working or not .
-
-![Screenshot_2024_1104_182258](https://github.com/user-attachments/assets/c913fb61-bc91-43d2-bd2a-47fdba5e508e)
+ 
 
 ## now we have to create the load         balancer
 
