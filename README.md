@@ -397,8 +397,7 @@ vi index.html
 
 ## now press i and write your code in html like 
 
-
-![Screenshot_2024_0923_211405](https://github.com/user-attachments/assets/7cd1afd2-b42e-43c1-94ed-86a1f1ebedf9)
+ 
 
 ## then press ctrl+c then shift+colon then write wq and enter
 
@@ -895,8 +894,7 @@ it acts as a layer that allows containers to send and receive data seamlessly ac
 ## Packet Switching:- 
 
 when we send email or web page the data does not travel as single continuous stream instead is broken down into smaller chunks called packets .
-
-![Screenshot_2024_1105_051355](https://github.com/user-attachments/assets/74909f19-be19-4184-b598-b27aacb28201)
+ 
 
 ## key functions of network core :-
 
