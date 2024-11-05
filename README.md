@@ -1,5 +1,6 @@
 # Cloud-computing
 Concepts of  cloud
+
 ![image](https://github.com/user-attachments/assets/9089d760-f125-49c0-9779-4fd9f7456fe2)
 
 # Cloud Computing:- 
