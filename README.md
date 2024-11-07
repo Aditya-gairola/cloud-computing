@@ -680,51 +680,35 @@ Amazon Virtual Private Cloud (VPC) is a virtual network that allows users to lau
 ![Screenshot (63)](https://github.com/user-attachments/assets/be24d9da-65eb-45e6-b2ff-90a2870e4023)
 
 
-## create  gateways:- 
+### copying pem file to bashtion host
 
- 1st  create INTERNET GATWAY , whic is  to be connected to your VPC which is   created earliy.
-
- ![Screenshot (64)](https://github.com/user-attachments/assets/6834a18e-01fb-4d39-b255-fd54df2bbcd6)
+![Screenshot (68)](https://github.com/user-attachments/assets/98889af5-2fd8-49fc-bd93-85ea06496622)
 
 
-•2nd we have to create VPG virtual      privaye gate, and connect to VPC .
+ ![Screenshot (69)](https://github.com/user-attachments/assets/b30f08b5-7f11-433b-bf7e-b20f4e4b73b6)
 
-![Screenshot (65)](https://github.com/user-attachments/assets/da9fe396-44e6-4eb9-b5d6-24d4ff5366e0)
+### log in to private instance
 
+![Screenshot (70)](https://github.com/user-attachments/assets/690f4db9-5a75-4139-ae41-0b8cb76923fd)
 
-## create route tables 
+### putting simple html file in private instance
 
-•Now we have to go to the route table   and create 2 route table , one for     IGW and another for VGW .
+![Screenshot (71)](https://github.com/user-attachments/assets/2a20042d-7f94-4a62-acd9-33274ed092aa)
 
- ![Screenshot (66)](https://github.com/user-attachments/assets/85329292-69b8-49ae-a77c-5116acd2dccf)
+## Creating load balancer
+   creating target group with port 8000
 
-•Now we have to connect two public      subnet in myigw and on other we have   to add the private subnets .
+   ![Screenshot (73)](https://github.com/user-attachments/assets/69079977-e4ab-4996-a502-19387463d0b4)
 
-  ![Screenshot (67)](https://github.com/user-attachments/assets/3fe61113-f183-460e-a202-3124a0efdc29)
+   creating load balancer
 
+ ![Screenshot (76)](https://github.com/user-attachments/assets/bac0524e-af07-4b12-9807-003ef4ea4af5)
 
+ ### viewing our project through DNS name in browser
 
-*now put on any one instance write following commands in putty -*
-
-* ```
-  htop
-  ```
-  ```
-  seq 999999999999999999999999999999999999999999999999999999999 > /dev/null &
-  ```
-  ```
-  htop
-  ```
-
-  ![Screenshot_2024_1104_183758](https://github.com/user-attachments/assets/bae13bf3-7e99-4944-86fb-156efc303382)
-
-### book link for reference of VPC given below (page 55 )
-
-{ https://www.scribd.com/document/454176546/AWS-lab-practice-guide-by-www-server-computer-com-v1
-}
+ ![Screenshot (77)](https://github.com/user-attachments/assets/5693874d-ed7d-4177-90f6-76d37a0a35d8)
 
 
-![Screenshot_2024_1105_055750](https://github.com/user-attachments/assets/268cad3b-5081-4e9b-9f17-a5aa70d6de41)
 
 
 # NETWORKING 
