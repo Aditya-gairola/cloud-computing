@@ -663,51 +663,46 @@ Amazon Virtual Private Cloud (VPC) is a virtual network that allows users to lau
 
 ### Go to VPC and create a VPC then we  have to create 4 subnets , where 2     subnets are private and other two are  public .
 
- 
- 
+ ![Screenshot (59)](https://github.com/user-attachments/assets/28490be2-9973-4d84-b252-6c564565bbb6)
+
+### Creating launch template in auto scaling group
+
+![Screenshot (60)](https://github.com/user-attachments/assets/e9de7473-d6ff-4c84-8166-293bdcedd958)
+
+### Creating auto scaling group with ec2 instances in private subnet
+
+![Screenshot (61)](https://github.com/user-attachments/assets/5a9a241a-e934-4997-8762-e21c0a362646)
+
+![Screenshot (62)](https://github.com/user-attachments/assets/319b2294-07ba-4dc2-90a2-81ca89832d9f)
+
+### Creating bastion host 
+
+![Screenshot (63)](https://github.com/user-attachments/assets/be24d9da-65eb-45e6-b2ff-90a2870e4023)
+
 
 ## create  gateways:- 
 
  1st  create INTERNET GATWAY , whic is  to be connected to your VPC which is   created earliy.
 
-![Screenshot_2024_1104_181831](https://github.com/user-attachments/assets/a3bb96a9-b738-4031-a65b-d169b25fd263)
+ ![Screenshot (64)](https://github.com/user-attachments/assets/6834a18e-01fb-4d39-b255-fd54df2bbcd6)
 
 
 •2nd we have to create VPG virtual      privaye gate, and connect to VPC .
+
+![Screenshot (65)](https://github.com/user-attachments/assets/da9fe396-44e6-4eb9-b5d6-24d4ff5366e0)
+
 
 ## create route tables 
 
 •Now we have to go to the route table   and create 2 route table , one for     IGW and another for VGW .
 
-![Screenshot_2024_1104_181847](https://github.com/user-attachments/assets/77c3730e-5cf4-4a0d-a78d-ac070f231688)
+ ![Screenshot (66)](https://github.com/user-attachments/assets/85329292-69b8-49ae-a77c-5116acd2dccf)
 
 •Now we have to connect two public      subnet in myigw and on other we have   to add the private subnets .
 
-![Screenshot_2024_1104_182425](https://github.com/user-attachments/assets/555833f8-2889-4028-b563-89596c844143)
-
-## create instances
-
-• now we have to create two instnaces    where we have to enable the public     IPv4 .
-
-•then on both instance we have to       downlaod the web server here i have    downlaoded the apache2 server
-
--- after that i chech that my             instances are working or not .
- 
-
-## now we have to create the load         balancer
-
---where we have to give vpc, aviablity   zone of the ec2 instance
-
-•then we have to create the target      group where we have to select the two  insatance we have create then we have  to go to helath check edited option    which was present below the load       balancer is create ,then edit it as    given below image
+  ![Screenshot (67)](https://github.com/user-attachments/assets/3fe61113-f183-460e-a202-3124a0efdc29)
 
 
-![Screenshot_2024_1104_182902](https://github.com/user-attachments/assets/0ae0ab8a-9196-486b-ad41-b9e27c901240)
-
-•after that come to load balancer       where we have to select the target     group which we have created then make  the load balancer , it will look like  the given image below .
-
-![Screenshot_2024_1104_183106](https://github.com/user-attachments/assets/a891ba72-6a20-4f33-89c2-cbe07cd88904)
-
-![Screenshot_2024_1104_183126](https://github.com/user-attachments/assets/1c5a8cf9-ff8d-4565-8968-7d1c0df5920a)
 
 *now put on any one instance write following commands in putty -*
 
